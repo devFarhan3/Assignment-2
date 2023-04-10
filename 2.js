@@ -73,16 +73,18 @@ addListItem('Oranges');
 // to the HTML element, and the second argument is a string representing
 // the new background color.
 
-function changeBackgroundColor(element, color) {
-    element.style.backgroundColor = color;
+
+<p id="my-element">Change thee color</p>
+
+function changeBackgroundColor(p, color) {
+    p.style.backgroundColor = color;
   }
 
   // get the element reference
 var  myElement = document.getElementById('my-element');
 
-// change its background color to blue
-changeBackgroundColor(myElement, 'blue');
-
+// change its background color to red
+changeBackgroundColor(myElement, 'red');
 
 // 6. Write a function that saves an object to localStorage. The function should
 // take two arguments: the first argument is a string representing the key to
